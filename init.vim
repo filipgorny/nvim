@@ -34,6 +34,12 @@ let ayucolor="dark"   " for dark version of theme
 Plug 'pangloss/vim-javascript'    " JavaScript support
 Plug 'leafgarland/typescript-vim' " TypeScript syntax
 
+"Plug 'lambdalisue/fern.vim'
+"Plug 'antoinemadec/FixCursorHold.nvim'
+"let g:fern#renderer = "nerdfont"
+
+Plug 'ryanoasis/vim-devicons'
+
 " Initialize plugin system
 call plug#end()
 
@@ -46,7 +52,4 @@ set fillchars+=vert:\
 set nu
 set wildmenu
 set wildmode=longest,list,full
-
-~
-~
 
